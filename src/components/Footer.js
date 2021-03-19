@@ -7,13 +7,13 @@ export default class Footer extends Component {
                 <p>M. Dupont Laurent</p>
                 <div className="row">
                     <div className="col-md-4">
-                        <a href="https://linkedin.com" target="_blank" className="text-dark">Linkedin<i className="fab fa-linkedin"></i></a>
+                        <a href="https://linkedin.com" target="_blank" className="text-dark">Linkedin</a>
                     </div>
                     <div className="col-md-4">
-                        <a href="https://facebook.com" target="_blank" className="text-dark">Facebook<i className="fab fa-facebook"></i></a>
+                        <a href="https://facebook.com" target="_blank" className="text-dark">Facebook</a>
                     </div>
                     <div className="col-md-4">
-                        <a href="https://instagram.com" target="_blank" className="text-dark">Instagram<i className="fab fa-instagram-square"></i></a>
+                        <a href="https://instagram.com" target="_blank" className="text-dark">Instagram</a>
                     </div>
                 </div>
             </div>

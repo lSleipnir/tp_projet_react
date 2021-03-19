@@ -29,6 +29,7 @@ export default class UsersList extends Component{
                     <th scope="col">Username</th>
                     <th scope="col">E-mail</th>
                     <th scope="col">Nb of Tasks</th>
+                    <th scope="col"></th>
                 </tr>
                 </thead>
                 <tbody>

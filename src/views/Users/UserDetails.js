@@ -45,10 +45,6 @@ export default class UserDetails extends Component {
                     </div>
                 </div>
             </div>
-
-
         </div>
-
-        //{post && post.title} on vérifie que post existe et si oui alors on écrit post.title
     }
 }

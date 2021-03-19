@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import TaskService from "../../services/task.service";
-import {Link} from "react-router-dom";
 
 export default class TaskModify extends Component {
 
@@ -43,7 +42,7 @@ export default class TaskModify extends Component {
     }
 
     render() {
-        let {task, title, completed} = this.state;
+        let {title, completed} = this.state;
         return <div className="container">
             <h2 className="text-center mt-4">Modifier une tâche</h2>
             <hr/>

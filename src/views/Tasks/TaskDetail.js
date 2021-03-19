@@ -19,7 +19,7 @@ export default class TaskDetail extends Component {
 
     async handleDelete() {
         let {task} = this.state;
-        let call = await TaskService.delete(task.id);
+        await TaskService.delete(task.id);
         this.props.history.push('/tasks');
     }
 
